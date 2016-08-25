@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home">
+	<div id="shirtDiv" class="page">
+		<img id="tshirtFacing" class="shirt" src="./img/crew_front.png"/>
+    	<div id="drawingArea" >         
+        	<canvas id="tcanvas" width="300px" height="400px" class="hover" style="-webkit-user-select: none;"></canvas>
+    	</div>
+	</div>
+	<button full (click)="addRectactgle();">Add Shape</button>
+	<button full (click)="addImage();">Add image</button>
+
+</ion-content>
